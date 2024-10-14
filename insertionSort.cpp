@@ -1,5 +1,10 @@
 /*
 Insertion sort is also called Online algorithm (online Data)
+time complexity: best case o(n), worst case o(n*n), average o(n*n)
+space complexity: o(1) (constant)
+approach: substract and conquer  (both value & structure)
+it is stable
+it is inplace
 */
 
 #include<iostream>
