@@ -17,6 +17,22 @@
 
 #include<iostream>
 using namespace std;
+void qs(int arr[], int low, int high)
+{
+   if(low<high)
+   {
+      int pvt;
+      pvt=srt(arr,low,high);
+      qs(arr,0,pvt-1);
+      qs(arr,pvt+1,high);
+
+   }
+}
+void srt(int arr[], int high, int low)
+{
+
+}
+
  void prntarr( int arr[], int s)
 {
    for(int i=0;i<s; i++)
@@ -28,4 +44,5 @@ int main()
 {
     int arr[]={2,56,67,6,8};
     prntarr(arr,5);
+    qs(arr,0,4);
 }
