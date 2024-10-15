@@ -9,16 +9,23 @@
 
    key:- (there are two pointer like p,q and pv means pivote elements)
    (1)if p>=pv :- stop
-   (2)if q<p :-   stop
-   (3)if (p<q) swap between (p,g)
+   (2)if q<pv :-   stop
+   (3)if (p<q) swap between (p,q)
    (4)if p cross q then swap(p,pv)
 
 */
 
 #include<iostream>
 using namespace std;
-
+ void prntarr( int arr[], int s)
+{
+   for(int i=0;i<s; i++)
+   {
+      cout<<arr[i]<<",";
+   }
+}
 int main()
 {
-    
+    int arr[]={2,56,67,6,8};
+    prntarr(arr,5);
 }
