@@ -17,6 +17,10 @@
 
 #include<iostream>
 using namespace std;
+int srt(int arr[], int low, int high)
+{
+      
+}
 void qs(int arr[], int low, int high)
 {
    if(low<high)
@@ -27,10 +31,6 @@ void qs(int arr[], int low, int high)
       qs(arr,pvt+1,high);
 
    }
-}
-void srt(int arr[], int high, int low)
-{
-
 }
 
  void prntarr( int arr[], int s)
