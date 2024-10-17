@@ -13,6 +13,13 @@
    (3)if (p<q) swap between (p,q)
    (4)if p cross q then swap(p,pv)
 
+
+   Quick sort:- it is not Stable (if a two same value in an array then the any value change the position)
+   T.C:- o(nlogn);
+   S.C:- o(1); constant
+   Approach:- Divide and conquer
+   inplace:- inplace              (if i'm not use another array to solve the problem then)
+
 */
 
 // #include<iostream>
@@ -107,8 +114,8 @@ void qs(int arr[], int low, int high)
 {
      if(low<high){
       pvt=srt(arr,low,high);
-      qs(arr,0, high-1);
-      qs(arr,low+1, high);
+      qs(arr,0, pvt-1);
+      qs(arr,pvt+1, high);
      }
 }
 void prntarr(int arr[], int s){
