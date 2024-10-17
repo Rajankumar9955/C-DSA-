@@ -108,10 +108,10 @@ void qs(int arr[], int low, int high)
      if(low<high){
       pvt=srt(arr,low,high);
       qs(arr,0, high-1);
-      qs(arr,low-1; high);
+      qs(arr,low+1, high);
      }
 }
-void prntarr(int arr[]; int s){
+void prntarr(int arr[], int s){
    for(int i=0; i<s; i++)
    {
       cout<<arr[i]<<",";
@@ -122,6 +122,6 @@ int main()
    int arr[]={8,7,89,27,64};
    prntarr(arr,5);
    qs(arr,0,4);
-   cout<<"after";
+   cout<<"after Applying Quick sort\n";
    prntarr(arr,5);
 }
