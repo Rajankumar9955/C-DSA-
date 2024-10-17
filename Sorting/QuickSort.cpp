@@ -15,10 +15,11 @@
 
 
    Quick sort:- it is not Stable (if a two same value in an array then the any value change the position)
-   T.C:- o(nlogn);
+   T.C:-   Best and Average case:-  n(logn);  worst case:- o(n*n);
    S.C:- o(1); constant
    Approach:- Divide and conquer
    inplace:- inplace              (if i'm not use another array to solve the problem then)
+   Based:- Structure and value best
 
 */
 
