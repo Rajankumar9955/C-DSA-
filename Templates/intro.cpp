@@ -24,10 +24,10 @@ a grt(a a1, b b1){
     }
 }
 
-template<typename a, typeaname b, typename c>
-b srt(b a1, b b1, b c1)
+template<typename c, typenamen d, typename e>
+c srt(c r1,c r2, c r3)
 {
-    return a1+b1+c1;
+    return r1+r2+r3;
 }
 
 int main()
@@ -36,6 +36,6 @@ int main()
     cout<<"float comparing:"<<grt(2.0,5.4)<<"\n";
     cout<<"char comparing:"<<grt('A','Z')<<"\n";
 
+    cout<<"using second method:"<<srt(10,10,10);
 
-    cout<<"addition in template:"<<srt(10,10,10);  
 }
