@@ -23,16 +23,17 @@ a grt(a a1, b b1){
         return b1;
     }
 }
-template<template a, template b, template c>
-b srt(b a1, b b1, b c1)
-{
-    return a1+b1+c1;
-}
+
+// template<template a, template b, template c>
+// b srt(b a1, b b1, b c1)
+// {
+//     return a1+b1+c1;
+// }
 int main()
 {
     cout<<"integer comparing"<<grt(200,54);
     cout<<"float comparing"<<grt(2.0,5.4);
     cout<<"char comparing"<<grt('A','Z');
 
-    cout<<"addition in template"<<srt(10,10,10);
+    // cout<<"addition in template"<<srt(10,10,10);
 }
