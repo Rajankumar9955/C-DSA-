@@ -24,7 +24,7 @@ a grt(a a1, b b1){
     }
 }
 
-template<template a, template b, template c>
+template<typename a, typeaname b, typename c>
 b srt(b a1, b b1, b c1)
 {
     return a1+b1+c1;
@@ -37,5 +37,5 @@ int main()
     cout<<"char comparing:"<<grt('A','Z')<<"\n";
 
 
-    cout<<"addition in template"<<srt(10,10,10);
+    cout<<"addition in template:"<<srt(10,10,10);  
 }
