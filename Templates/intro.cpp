@@ -33,7 +33,7 @@ int main()
 {
     cout<<"integer comparing:"<<grt(200,54)<<"\n";
     cout<<"float comparing:"<<grt(2.0,5.4)<<"\n";
-    cout<<"char comparing:"<<grt('A','Z')<<"\n";
+    // cout<<"char comparing:"<<grt('A','Z')<<"\n";
 
     // cout<<"addition in template"<<srt(10,10,10);
 }
