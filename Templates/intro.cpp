@@ -25,4 +25,3 @@ Q. Sequetion container
  2.vector
  3.list
  4.deque   
-
