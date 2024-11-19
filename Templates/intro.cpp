@@ -13,7 +13,6 @@ c++ stl has following three well structure components
 2 algorithm
 3 iterators
 
-
 1 container:- container are use to manage collections of objects of a certain kind there are three types of container
    1. sequetion container
    2. container adapter
