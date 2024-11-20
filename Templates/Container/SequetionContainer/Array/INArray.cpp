@@ -17,6 +17,6 @@ int main()
         cout<<arr[i]<<"\t";
     }
     cout<<"\n";
-    cout<<"index of 0 indexing:"<<arr.front()<<"\n"; //first data return in array
-    cout<<"Value at n-1 indexing:"<<arr.back()<<"\n"; //last Data return in array
+    cout<<"index of 0 indexing:"<<arr.front()<<"\n";  //first data return in array
+    cout<<"Value at n-1 indexing:"<<arr.back()<<"\n";  //last Data return in array
 }
