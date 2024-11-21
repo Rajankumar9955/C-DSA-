@@ -7,6 +7,7 @@ it is stable
 it is inplace
 */
 
+
 #include<iostream>
 using namespace std;
 int main()
