@@ -46,6 +46,7 @@ int main()
     {
         cout<<d[i]<<"\t";
     }
+    
     arr.swap(d);
     cout<<"After swapping output of first array is \n";
     for(int i=0; i<arr.size(); i++)
