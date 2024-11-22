@@ -52,5 +52,4 @@ int main()
        {
            cout<<j<<"\t";
        }
-
 }
