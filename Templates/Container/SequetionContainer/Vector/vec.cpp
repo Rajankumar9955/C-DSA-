@@ -36,4 +36,21 @@ int main()
           cout<<j<<"\t";
        }
 
+
+       cout<<"\n";
+       sort.(v.begin(), v.end());  // Ascending order
+       cout<<"After Ascending order:";    
+       for(auto j:v)
+       {
+           cout<<j<<"\t";
+       }
+
+        cout<<"\n";
+       sort.(v.rbegin(), v.rend());   //Descending order
+       cout<<"After Desending order:";
+       for(auto j:v)
+       {
+           cout<<j<<"\t";
+       }
+
 }
