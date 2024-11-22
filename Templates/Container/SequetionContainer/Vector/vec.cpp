@@ -46,7 +46,7 @@ int main()
        }
 
         cout<<"\n";
-       sort.(v.rbegin(), v.rend());   //Descending order
+       sort.(v.rbegin(), v.rend());  //Descending order
        cout<<"After Desending order:";
        for(auto j:v)
        {
