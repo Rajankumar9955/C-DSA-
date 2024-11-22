@@ -58,6 +58,12 @@ int main()
     {
         cout<<d[i]<<"\t";
     }
+    cout<<"after Fill Function use";
+    d.fill(-100);
+    for(int i=0; i<d.size(); ++i)
+    {
+        cout<<d[i]<<"\t";
+    }
 }
 
 
