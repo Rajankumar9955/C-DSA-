@@ -13,7 +13,7 @@ int main()
         cout<<j<<"\t";
     }
     
-    cout<<"useof Scope resolution operator\n";     // delete any to use iterator
+    cout<<"useof Scope resolution operator\n";    // delete any to use iterator
     vector<int>::iterator it=v.begin();
     cout<<*it;   //point first array position
     cout<<"\t";
