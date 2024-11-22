@@ -29,6 +29,8 @@ int main()
        {
           cout<<j<<"\t";
        }
+
+       //using erase function to erase the data of array
        cout<<"Erase function use for erase the value in the array";
        v.erase(it+2);
        for(auto j:v)
