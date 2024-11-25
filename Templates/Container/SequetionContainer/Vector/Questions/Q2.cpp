@@ -8,6 +8,8 @@ question2
 WAP to change the first character of each string of a sentense into uppercase
 ex1:- input A ="how much quantity"   output:- How Much Quantity
 
+
+Question3:
 WAP to return true if second string found in a first string
 input:- s1:-"HEMANT"  s2:"HE"   output:-true
 input:- s1:-"honey"  s2:"ne"    output:-false
