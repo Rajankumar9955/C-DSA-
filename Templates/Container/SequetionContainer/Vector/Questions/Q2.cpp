@@ -17,14 +17,32 @@ input:- s1:-"honey"  s2:"ne"    output:-false
 
 #include<iostream>
 #include<vector>
+#include<algorithm>
 using namespace std;
-// vector<int>test(vector<int>&v)
+
+bool consecutive(vector<int>vec){
+    sort(vec.begin(), v.end());
+    for(int i=0; i<vec.size()-1; i++)
+    {
+        if(vec[i+1]!=vec[i]+1)
+        {
+            return false;
+            break;
+        }
+    }
+    return true;
+}
+
 int main()
 {
     vector<int>v{5,10,2,6,41,25,32,4};
-    sort(v.begin(), v.end());
-    for(auto p:v)
+    if(consecutive(v))
     {
-        cout<<p<<"\t";
+        cout<<"true";
     }
+    else
+    {
+        cout<<"false";
+    }
+    
 }
