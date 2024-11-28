@@ -12,8 +12,8 @@ access by second keyword along with object
 using namespace std;
 int main()
 {
-    pair<int,string>p;
-    p=make_pair(110, "Rajan");
+    pair<int,string>p {110, "Rajan"};
+    // p=make_pair(110, "Rajan");
     cout<<p.first<<"\t";
     cout<<p.second;
 
